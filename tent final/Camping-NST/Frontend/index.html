@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Camping@NST</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="/Camping-NST/Backend/index.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="https://i.pinimg.com/originals/04/6f/f0/046ff02077c375a11c0bd2d38fd0abd2.png"
+    type="image/icon type">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body >
+  <!-- navbar zone -->
+  <div class="bgindex" style="z-index: -99;"></div>
+  <div class="bg-blackindex" style="z-index: -1;"></div>
+  <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: rgba(0, 0, 0, 0.668)  ;  opacity: 90% ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="font-weight: bolder;color: white;margin-left: 25px;"><img
+          src="https://i.pinimg.com/originals/04/6f/f0/046ff02077c375a11c0bd2d38fd0abd2.png" alt="" height="40px"
+          width="40px"> Camping@NST</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 center">
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="color: white;">
+              Camping Place
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Lyn Resort.html">Copter Chill Resort</a></li>
+              <li><a class="dropdown-item" href="Rivercamp.html">4015 River Camp</a></li>
+              <li><a class="dropdown-item" href="Tentriver.html">Waterfront Tent, Baan Khiri Wong</a></li>
+              <li><a class="dropdown-item" href="Moncamping.html">MonHouse Camping</a></li>
+              <li><a class="dropdown-item" href="Zero.html">Khao Soon Camping </a></li>
+            </ul>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;" onclick="contact01()">Contact</a>
+          </li>
+      </div>
+      </ul>
+
+
+      <form class="d-flex" role="search">
+        <a href="login.html" rel="noopener noreferrer"><button type="button" class="btn btn-secondary"><i
+              class="fa-solid fa-user"></i>&nbsp; Admin </button></a>&nbsp;&nbsp;
+
+        <button type="button" class="btn btn-warning"><i class="fa-solid fa-tent" style="color: white;"></i>&nbsp; <a href="yourcamp.html" style="text-decoration: none;color: white;">Your Camping</a> </button>
+      </form>
+    </div>
+    </div>
+  </nav>
+  <!-- navbar zone -->
+  <div class="container-fluid">
+    <div class="col-md">
+      <div class="container-fluid" style="padding-top: 100px;">
+        <span style="color: white;font-weight: bolder; margin-left: 40px;" class="ip12headindex">&nbsp;Nakhon &nbsp;Si&nbsp;Thammarat</span><br>
+      </div>
+      
+      <div style="padding-top: 45px;width: 800px; margin-left: 50px; width: 80%;" >
+        <p style="color: white;font-weight: lighter;font-size: 16px;">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Are you looking for a good place to relax and be surrounded by nature in Nakhon
+          Si Thammarat province for camping or for those who want to experience camping? If you are ready, pack your
+          bags and come with us!"
+        </p>
+    </div>
+      <div class="container-fluid" style="padding-top: 30px;margin-left: 30px;">
+        <a href="https://www.google.com/maps/dir/9.1468645,99.3340266/%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A3%E0%B8%B2%E0%B8%8A/@8.7411901,99.3391618,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x30530115a2a6568b:0x34e30843bc5f02f2!2m2!1d99.9631219!2d8.4303975"
+          target="_blank"><button type="button" id="button" class="btn"
+            style="background-color: white;border-radius: 60px;opacity: 90%;margin-left: 40px;"> <i
+              class="fa-sharp fa-solid fa-location-dot"></i>&nbsp; Location</button></a>
+        <a data-aos="fade-up" data-aos-delay="200" href="#hl01" class="btn"
+          style="background-color: white;border-radius: 60px;opacity: 90%;margin-left: 40px;"><i
+            class="fa-solid fa-video"></i> Preview</a>
+      </div>
+  </div>
+      <div class="container-fluid" style="margin-top: 500px;position: relative;" class="hl01">
+        <div class="container-fluid row" style="width: 100%; height: 100%;padding-left: 30px;">
+          <div class="col-4">
+            <span class="sticky hightlight" style="font-weight: bolder;" id="hl01">Hightlight</span><br><br>
+          </div>
+          <div class="col-6 center">
+            <div class="bg-image1 img1">&nbsp; <br>&nbsp;<br> &nbsp;<br>
+              &nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+            <div class="bg-image1 img2">&nbsp; <br>&nbsp;<br> &nbsp;<br>
+              &nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+            <div class="bg-image1 img3">&nbsp; <br>&nbsp;<br> &nbsp;<br>
+              &nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+            <div class="bg-image1 img4">&nbsp; <br>&nbsp;<br> &nbsp;<br>
+              &nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  <br><br><br>
+  <!--footer-->
+  <div style="color: white;background-color: black;opacity: 90%;;height: 150px;width: auto;">
+    <br>
+    <center>
+      <div class="footer1"> Copyright © 2023 NSTCamping.com Travel Nakhonsithammarat Pte.
+        Ltd. สงวนลิขสิทธิ์ตามกฎหมาย <br> ผู้ดำเนินการเว็บไซต์: NSTCamping.com Travel Nakhonsithammarat Pte. Ltd.
+    </center>
+        </div>
+  </div>
+
+
+</body>
+
+</html>

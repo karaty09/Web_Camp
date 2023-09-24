@@ -1,0 +1,260 @@
+.d{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bg-black {
+    background: black;
+    opacity: 60%;
+    position:absolute;
+    width:100%;
+    height:820px;
+}
+
+.bg-black01 {
+    background: black;
+    opacity: 30%;
+    position:absolute;
+    width:100%;
+    height:820px;
+}
+
+.bg-blackindex {
+    background: black;
+    opacity: 20%;
+    position:absolute;
+    width: 100%;
+    height: 820px;
+}
+
+.center {
+    margin: auto;  
+    width: 50%;   
+ }
+
+.bgindex{
+    background-image: url('https://storage.findtrip.me/images/20211216142410.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 820px;
+}
+
+.bglyn{
+    background-image: url('https://nakhonsidee.com//pic/181/35.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 820px;
+}
+
+.bgmon{
+    background-image: url('https://scontent.fbkk5-7.fna.fbcdn.net/v/t1.6435-9/59461751_327603981289642_6919806017437958144_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE-pxAg2oS4tKBJofcLL1qQ1IJmy01CKLHUgmbLTUIosXrctUzet9uXG_P_Z6O7cm2rrPU7l8ISsfUoj5p4xQC_&_nc_ohc=zD3YIGL_X3QAX-MAGF1&_nc_ht=scontent.fbkk5-7.fna&oh=00_AfCeZ8lx45muFStNyoOl2y67FF4UukvGT_83PLgcwfJugA&oe=63DD0B1C');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 820px;
+}
+
+.bgriver{
+    background-image: url('https://nakhonsidee.com//pic/475/11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 820px;
+}
+
+.bgtentriver{
+    background-image: url('http://paikondieow.com/wp-content/uploads/2018/05/20-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 820px;
+}
+.bgzero22o{
+    background-image: url('https://static.thairath.co.th/media/HCtHFA7ele6Q2dULVnV0kVAE8XvK9sFSWIIq9kdcesJ5XjuwK1vAC5Ilay586tK77j.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 820px;
+}
+
+
+
+
+.bg-image1 {
+    height: 200px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+
+}
+
+.bg-image1:hover  {
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+    
+
+}
+
+* {box-sizing: border-box;}
+.container2 {
+    position: relative;
+    width: 50%;
+    width: 300px;
+  }
+  
+  .image2 {
+    height: 200px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .overlay2 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container2:hover .overlay2 {
+    opacity: 1;
+  }
+
+  /* Index */
+.img1 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Baanmon_02.jpg"); }
+.img2 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Peamsook_03.jpg"); }
+.img3 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Peamsook_01.jpg"); }
+.img4 { background-image: url("https://ak-d.tripcdn.com/images/1i61u2215bdy83weo4F5A.jpg?proc=source/trip"); }
+
+
+/* Lyn Resort */
+.img5 { background-image: url("https://nakhonsidee.com//pic/205/2.jpg"); }
+.img6 { background-image: url("https://nakhonsidee.com//pic/205/4.jpg"); }
+.img7 { background-image: url("https://nakhonsidee.com//pic/205/6.jpg"); }
+.img8 { background-image: url("https://scontent.furt3-1.fna.fbcdn.net/v/t1.6435-9/52887299_325168921462474_2190359627911135232_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGKuXVho0buhxPsayrlSIplVORUDr-1BK9U5FQOv7UEr_-VmUqRE0lx0rbaHZd_A9vnHf_h8tlWnTuEnsJLpj_Q&_nc_ohc=t0OUOnFc-OwAX-tlkaF&_nc_ht=scontent.furt3-1.fna&oh=00_AfB5-PI3cVrrZX1yr1ixFla7jD6O-PpvOxsy__ufI0KiZw&oe=63DCE722"); }
+
+
+/* Moncamp */
+.img9 { background-image: url("https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.6435-9/58689432_327603754622998_7126228287486951424_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeErnRNzoKNi6nuYgy4bSa_I-Hi3t9wH3-X4eLe33Aff5RdYBQEtVvPPFUmSt7CulXlzfkg51NKCr2kYXXTFar0I&_nc_ohc=dl6SU0BGu7IAX9CpznI&_nc_ht=scontent.fbkk5-3.fna&oh=00_AfCFsbba94B4LlSOYivqX26YTf1ck9kVTryA-P11iyVkEA&oe=63DD17FB"); }
+.img10 { background-image: url("https://scontent.fbkk5-8.fna.fbcdn.net/v/t1.6435-9/59500992_327603937956313_8672432761908232192_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH2O6_H9FjxDCYbEmJV2VCBfOvt5EJpoO986-3kQmmg7wQBJ0qYRR8Fw6IVn67giAxOkCYH5saVs6X3DXJBrRkd&_nc_ohc=N13Ud_GkzCAAX_IEW1R&_nc_ht=scontent.fbkk5-8.fna&oh=00_AfBpkrHrFIjCNj4bliOFNU7xpG357nFzq8x0ym2Cgz1-LA&oe=63DD1341"); }
+.img11 { background-image: url("https://scontent.fbkk5-8.fna.fbcdn.net/v/t1.6435-9/58625841_327603771289663_7950913474912059392_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF4W-qfU4sjKTZXmbEBq2ijYqE4KGoTvJVioTgoahO8lSxDAdLtgTJW-JwTPEU0lrP-aQwM9efw7RqG6GSMy2rm&_nc_ohc=IpunuNVv8bwAX-NGV4e&_nc_ht=scontent.fbkk5-8.fna&oh=00_AfCrCq3qjlS4CqOXJqZniLunBfWu2T9Vq6Jjq-nwzhYD8A&oe=63DCFA47"); }
+.img12 { background-image: url("https://scontent.fbkk5-7.fna.fbcdn.net/v/t1.6435-9/58590378_327603881289652_8568566485457305600_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGS8VCdFs3nogQtG9pC86TnBUXqCIZwXrUFReoIhnBetRso27TKv7paZRc6N9IUuPkhtq8yinzVyohVYS54I47w&_nc_ohc=CqlHIDp0F5QAX8xJfwc&_nc_ht=scontent.fbkk5-7.fna&oh=00_AfC8OoB-HYtO3iYg_BCcgglABE852AxexrRJe_uQmE-pCw&oe=63DD1831"); }
+
+
+/* Rivercamp */
+.img13 { background-image: url("https://scontent.furt3-1.fna.fbcdn.net/v/t39.30808-6/320434571_556998619625368_5733775921355240001_n.jpg?stp=cp6_dst-jpg_p960x960&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEj2SDUVTLmeHNyt1JJuhr-G8Xfzf5um4Ubxd_N_m6bha7oLvVUobAGG5OPCPJ5r0DYEI_ODTkp2H2XXipm4oC9&_nc_ohc=4_G4Bx_k2ZQAX-GiLNu&_nc_ht=scontent.furt3-1.fna&oh=00_AfDXYSvXCQWTjULgIqHO61gOwLAfj0MuLtGWH5J0MoarAQ&oe=63BB32FE"); }
+.img14 { background-image: url("https://nakhonsidee.com//pic/475/7.jpg"); }
+.img15 { background-image: url("https://nakhonsidee.com//pic/475/6.jpg"); }
+.img16 { background-image: url("https://scontent.furt3-1.fna.fbcdn.net/v/t39.30808-6/319672551_183154477626767_4759502327379112334_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGqJ5H_zztvPpuOIv6xAM-g0MS-yqd4_fPQxL7Kp3j985xw-mDiQmtC6LF5VtaOSDyTI1idD4FVF4Wg6oMvbjTK&_nc_ohc=BKfrt7kgrjsAX9UN0UZ&tn=qrrsYRuRg8dsS5L5&_nc_ht=scontent.furt3-1.fna&oh=00_AfCdxZJKe50axoh-Gnc3Vqdprp1APtPwzBKqHXg10R0wEA&oe=63BA7893"); }
+
+/*zero*/
+.img17 { background-image: url("https://i0.wp.com/www.konlongtang.com/wp-content/uploads/2022/11/282563386_547785186715157_1373345353074042798_n.jpg"); }
+.img18 { background-image: url("https://i0.wp.com/www.konlongtang.com/wp-content/uploads/2022/11/282632890_547785003381842_7990148377475978206_n.jpg"); }
+.img19 { background-image: url("https://i0.wp.com/www.konlongtang.com/wp-content/uploads/2022/11/282379122_547784696715206_466604029602678565_n.jpg"); }
+.img20 { background-image: url("https://i0.wp.com/www.konlongtang.com/wp-content/uploads/2022/11/281943155_547785093381833_7581546291884942647_n.jpg"); }
+
+/* Water */
+.img21 { background-image: url("https://scontent.furt3-1.fna.fbcdn.net/v/t39.30808-6/298114244_1443355359478446_2716984759950869343_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHJcB1BUPZ4oXQjOKd4oTiKDhdfhf1jQRoOF1-F_WNBGnjoiUmRMUCKQF4ofUOLFkonshFGkpK7GktMZGaNTF6m&_nc_ohc=Z9qC6qCQ8eEAX80tQ52&tn=qrrsYRuRg8dsS5L5&_nc_ht=scontent.furt3-1.fna&oh=00_AfAqfSHGntDCyHao_3PFVpcjPivl74hjKS13Thd6gfp6Tw&oe=63BA3073"); }
+.img22 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Rimnam_03.jpg"); }
+.img23 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Peamsook_04.jpg"); }
+.img24 { background-image: url("https://www.tripgether.com/wp-content/uploads/tripgetter/Peamsook_02.jpg"); }
+
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 50px;
+}
+
+.ip12headindex{
+    font-size: 50px;
+}
+
+.hightlight{
+    font-size: 50px
+}
+.textbegin{
+    font-size: 16px;
+}
+
+.footer1{
+    margin-top: 40px; 
+    font-size: 12px;  
+}
+
+/*iphone 12 pro*/
+@media screen and (device-width: 390px) and (device-height: 844px){ 
+    .bgindex{
+        width: 390px;
+        height: 884px;
+    }
+    .ip12headindex{
+        font-size: 26px;
+    }
+    .hightlight{
+        font-size: 30px;
+        margin-left: -80px;
+    }
+    .bg-blackindex {
+        background: black;
+        opacity: 20%;
+        position:absolute;
+        width: 390px;
+        height: 884px;
+    }
+    .bg-black {
+        background: black;
+        opacity: 60%;
+        position:absolute;
+        width:100%;
+        height: 820px;
+}
+    .footer1{
+        margin-top: 30px; 
+        font-size: 7px;  
+    }
+    .sticky {
+        font-size: 25px;
+      
+        
+    }
+
+}
+
+
+/*ipad air*/
+@media screen and (device-width: 820px) and (device-height: 1180px){
+
+    .image2 {
+        display: block;
+        width: 100%;
+        
+    }
+    .sticky {
+      
+        margin-left: -30px;
+    }
+}

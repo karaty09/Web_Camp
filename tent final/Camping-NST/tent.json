@@ -1,0 +1,37 @@
+{
+  "usercamp": [
+    {
+      "place": "Lyn&Copter Chill ",
+      "name": "thammakit",
+      "phonenumber": "09523423423",
+      "adults": "2",
+      "children": "0",
+      "datecome": "2023-01-14",
+      "dateback": "2023-01-12",
+      "room_selection": "Hotel",
+      "id": 1
+    },
+    {
+      "place": "MonHouse_Camping",
+      "name": "Supanut",
+      "phonenumber": "0923432342",
+      "adults": "3",
+      "children": "2",
+      "datecome": "2023-01-05",
+      "dateback": "2023-01-10",
+      "room_selection": "Own Camping",
+      "id": 6
+    },
+    {
+      "place": "Copter_Chill_Resort",
+      "name": "Ratchanon",
+      "phonenumber": "0934534534",
+      "adults": "6",
+      "children": "3",
+      "datecome": "2023-01-18",
+      "dateback": "2023-01-26",
+      "room_selection": "Camping of Resort",
+      "id": 7
+    }
+  ]
+}
